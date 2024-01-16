@@ -24,17 +24,21 @@ main{
     display: inline;
 }
 
-.grill-container{
-    background-color: #7FFFD4;
-    margin-top: 20px;
-
-}
+/* .grill-container{ */
+    /* background-color: #7FFFD4; */
+    /* margin-top: 20px; */
+/*  */
+/* } */
 .griglia{
-    padding: 20px;
-    width: 60%;
-    margin: 0 auto;
+    padding: 30px;
+    margin-block: 10px;
+    /* width: 80%; */
+    /* margin: 0 auto; */
     display: flex;
     flex-wrap: wrap;
+    background-color: #7FFFD4;
+    padding-inline: 100px;
+    
 }
 
 .box{
@@ -42,6 +46,9 @@ main{
     aspect-ratio: 1;
     flex-basis: calc(100% / 10);
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .active{
