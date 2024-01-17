@@ -2,43 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+}
+
+body{
+    padding: 10px;
+    margin: 0 auto;
+    width: 80%;
 }
 
 main{
+    background-color: #7FFFD4;
+    padding-bottom: 30px;
+    padding: 20px;
+}
 
-    padding: 10px;
-    width: 60%;
-    margin: 0 auto;
-    height: 100vh;
+header,
+footer{
+    padding-block: 10px;
 }
 
 .titolo{
     display: flex;
     justify-content:space-between;
-    
-
 }
 
 .titolo h1{
     display: inline;
 }
 
-/* .grill-container{ */
-    /* background-color: #7FFFD4; */
-    /* margin-top: 20px; */
-/*  */
-/* } */
 .griglia{
-    padding: 30px;
-    margin-block: 10px;
-    /* width: 80%; */
-    /* margin: 0 auto; */
     display: flex;
     flex-wrap: wrap;
     background-color: #7FFFD4;
-    padding-inline: 100px;
-    
+    width: 60%;
+    margin:0 auto;
+    height: 80vh;
 }
 
 .box{
